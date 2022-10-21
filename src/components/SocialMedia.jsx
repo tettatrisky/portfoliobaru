@@ -38,7 +38,7 @@ const links = [
 
             {links.map(({id, logo, href}) => (
 
-            <li key={id} className='flex bg-gray-500 h-11 justify-between items-center w-40 h-12 px-4 bg-black ml-[-110px] hover:rounded-md hover:ml-[-10px] duration-300 bg-gray-500'>
+            <li key={id} className='flex bg-gradient-to-r from-black to-blue-900 h-11 justify-between items-center w-40 px-4 ml-[-110px] hover:rounded-md hover:ml-[-10px] duration-300'>
                 <a href={href} className='flex justify-between items-center w-full text-white '>
                     {logo}
                 </a>

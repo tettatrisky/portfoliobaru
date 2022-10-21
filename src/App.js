@@ -3,7 +3,8 @@ import Home from "./components/Home";
 import SocialMedia from "./components/SocialMedia";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-
+import MySkills from "./components/MySkills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Home/>
       <About/>
       <Portfolio/>
+      <MySkills/>
+      <Contact/>
       <SocialMedia/>
     </div>
   );
